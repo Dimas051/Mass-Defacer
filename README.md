@@ -25,14 +25,20 @@ Mengatur header tertentu agar plugin-plugin itu mengabaikan request ini atau men
 💥 Bypass yang dilakukan:
 
 X-LSCACHE: off → Mematikan cache LiteSpeed (mencegah tampilan lama).
+
 X-Imunify360-Request: bypass → Lewati proteksi Imunify360.
+
 X-Imunify360-Captcha-Bypass → Lewati captcha.
+
 X-Mod-Security → Menyesuaikan dengan header dari Apache jika terdeteksi.
+
 REMOTE_ADDR dimodifikasi agar menyamarkan IP asli pengguna melalui Cloudflare.
 
 🚨 Kesimpulan
 
 Kode ini adalah web shell berbahaya yang digunakan untuk:
+
 Melakukan mass defacing pada situs web yang sudah berhasil diretas.
+
 Menghindari deteksi sistem keamanan menggunakan teknik header spoofing dan pengaturan server internal.
 
