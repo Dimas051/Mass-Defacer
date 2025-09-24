@@ -7,13 +7,7 @@ Script ini ditujukan untuk digunakan oleh peretas atau defacer untuk mengunggah 
 
 Script ini dirancang untuk:
 
-1. Membypass proteksi server seperti:
-LiteSpeed Cache (LSCache)
-Imunify360
-ModSecurity
-Cloudflare
-Wordfence (plugin keamanan WordPress)
-
+1. Membypass proteksi server seperti: LiteSpeed Cache (LSCache), Imunify360, ModSecurity, Cloudflare, Wordfence (plugin keamanan WordPress)
 2. Menulis file deface (index.php) ke semua subdirektori dari direktori utama (base_dir) yang diinput pengguna.
 
 
